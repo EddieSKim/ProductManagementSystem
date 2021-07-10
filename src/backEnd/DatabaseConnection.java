@@ -26,7 +26,7 @@ public class DatabaseConnection {
 	public void connectToDatabase() {
 		try {
 			// Connecting to local MySQL database
-			conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/productList", "root", "eddie1100)");
+			conn = DriverManager.getConnection("Replace with local MySQL database connection");
 			
 			// Statement
 			stment = conn.createStatement();
